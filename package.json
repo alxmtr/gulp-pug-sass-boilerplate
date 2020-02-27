@@ -1,8 +1,27 @@
 {
+  "author": "Alexander Ivanov",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2"
-  }
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "gulp-include": "^2.4.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.8.4"
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
