@@ -4,7 +4,7 @@ Sass &amp; Pug boilerplate using Gulp + BrowserSync
 ### Usage
 - Clone this repository
 ```
-git clone https://github.com/zhyar/gulp-pug-sass-boilerplate
+git clone https://github.com/alxmtr/gulp-pug-sass-boilerplate
 ```
 - Install the dependencies
 ```
